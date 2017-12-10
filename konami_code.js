@@ -4,6 +4,7 @@ var index = 0;
 
 function init() {
 input.addEventListener('keydown', onKeyDownHandler );
+console.log(e.which);
 }
 
 function onKeyDownHandler(e) {
