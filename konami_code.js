@@ -4,7 +4,6 @@ var index = 0;
 
 function init() {
 input.addEventListener('keydown', onKeyDownHandler );
-console.log(e.which);
 }
 
 function onKeyDownHandler(e) {
@@ -13,7 +12,7 @@ function onKeyDownHandler(e) {
   if (key === code[index]) {
     index++;
 
-    if (index === alphabet.length) {
+    if (index === code.length) {
       alert("Success! (↑↑ ↓↓ ← → ← → B A)");
 
       index = 0;
