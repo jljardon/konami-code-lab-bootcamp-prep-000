@@ -4,6 +4,6 @@ const input = document.querySelector('body');
 function init() {
   // Write your JavaScript code inside the init() function
 
- 
+
 
 }
